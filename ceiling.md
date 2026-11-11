@@ -10,6 +10,16 @@ Session 6. Fill this in as you go, then commit it as "FINAL: my ceiling".
 - The three questions at the bottom are the homework: answer each with
   "time" or "memory" and one reason — from your measurements or the slides.
 -->
+## vision experiment results
+| Measurement | 48 × 48 | 96 × 96 | 160 × 160 |
+|---|---:|---:|---:|
+| Image size | 48 × 48 | 96 × 96 | 160 × 160 |
+| Validation accuracy | 66.1% | 80.7% | 83.2% |
+| Validation loss | 0.63 | 0.48 | 0.40 |
+| Inference time | 163 ms | 2161 ms | 1246 ms |
+| FPS | 6.13 | 0.46 | 0.80 |
+| Peak RAM | 90.1 KB | 106.9 KB | 236.6 KB |
+| Flash usage | 289.4 KB | 305.3 KB | 295.8 KB |
 
 | Image size | My prediction             | Measured | FPS | Accuracy |
 |------------|---------------------------|----------|-----|----------|
